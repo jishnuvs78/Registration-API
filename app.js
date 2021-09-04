@@ -6,8 +6,8 @@ const jwt = require('jsonwebtoken');
 
 ///////////For mailgun//////////
 
-var API_KEY = "9fe80a7bc8fa6496019a7caae35af11d-1f1bd6a9-09e532ae";
-var DOMAIN = "sandbox9457436ed6ab4f01a53d6b48c563849d.mailgun.org";
+var API_KEY = "";
+var DOMAIN = "";
 const mailgun = require("mailgun-js")({
   apiKey: API_KEY,
   domain: DOMAIN
